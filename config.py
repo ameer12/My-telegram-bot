@@ -1,9 +1,4 @@
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8217666339:AAGPjBwbGyqyuwc5hfMyIkBsKK5eP4UTf8M"
 
 if not BOT_TOKEN:
-    raise ValueError("❌ BOT_TOKEN is missing. Please set it in the .env file.")
+    raise ValueError("BOT_TOKEN is missing.")
