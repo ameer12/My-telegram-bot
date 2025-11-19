@@ -1,0 +1,19 @@
+target_url: "https://your-landing-page.com"
+sitemap_url: "https://your-landing-page.com/sitemap.xml"
+
+llm:
+  model: "mistral"
+  api_url: "http://localhost:11434/api/generate"
+
+proxy_source: "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt"
+
+schedule:
+  backlink_hours: 6
+  ctr_hours: 8
+  indexing_time: "02:00"
+  content_time: "04:00"
+
+keywords:
+  - "ai city"
+  - "smart traffic"
+  - "urban automation"
